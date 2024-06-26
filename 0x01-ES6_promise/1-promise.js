@@ -4,6 +4,7 @@ export default function getFullResponseFromAPI(success) {
       status: 200,
       body: 'Success',
     };
+
     if (success === true) {
       resolve(resp);
     } else {
