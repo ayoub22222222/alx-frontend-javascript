@@ -11,5 +11,4 @@ export default function handleProfileSignup(firstName, lastName, fileName) {
       arr.push({ status: item.status, value: item.value || item.reason });
     }
     return arr;
-  });
-}
+  });}
